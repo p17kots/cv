@@ -1,1 +1,0 @@
-Thats my personal cv
