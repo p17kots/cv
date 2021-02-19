@@ -8,31 +8,16 @@ version: 2
 # Personal info
 name: Kotsagiannidis Petros
 title: Computer Science Student
-email: galletioly@gmai.com
+email: galletioly@gmail.com
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
 github_username:  p17kots
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
 instagram_username: jekyll
 linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
-
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -45,7 +30,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/image.jpg
 about_content: | # this will include new lines to allow paragraphs
   I'm 21 years old and i currently leave and study in Corfu,Greece.I'm interested in full stack programming,data management and recently I've started working on natural language proccesing and machine learning.I'd describe myself as a perfectionist that's always looking for new knowledge.I like new challenges and i hate routinization.
 content:
