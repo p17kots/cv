@@ -6,7 +6,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Kotsagiannidis Petros
+name: Kotsagiannidis Petro
 phone: 69877483
 title: Computer Science Student
 email: galletioly@gmail.com
@@ -19,9 +19,10 @@ github_username:  p17kots
 instagram_username: jekyll
 linkedin_username: jekyll
 # Additional icon links
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+additional_links:
+- title: pdf
+  icon: fas fa-file-pdf
+  url: https://p17kots.github.io/cv/cv.pdf
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting

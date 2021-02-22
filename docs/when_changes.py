@@ -6,12 +6,9 @@ from os.path import getmtime
 import sys
 
 
-a=1
-
-#help(os.execv)
-os.chdir(".")
-#os.system("bundle exec jekyll serve")
-last_modification=os.stat('./_config.yml').st_mtime
+os.chdir("/home/osboxes/Documents/Github/cv/docs")
+os.system("gnome-terminal -e 'bash -c \"bundle exec jekyll serve\" '")
+last_modification=os.stat('_config.yml').st_mtime
 
      
 def kill_proccess():
@@ -21,14 +18,15 @@ def kill_proccess():
             PID=int(output[output.index(i)+1])
             os.kill(PID,signal.SIGINT)
 
-while a==1 :
-    modification=os.stat('./_config.yml').st_mtime
+while True :
+    modification=os.stat('_config.yml').st_mtime
     if last_modification != modification :
         os.system("gnome-terminal -e 'bash -c \"bundle exec jekyll serve\" '")
         last_modification=modification
+        time.sleep(2)
         continue
-        #kill_proccess()
-        #os.execv(sys.executable, ['python3'] + sys.argv)
+        
+        
         
         
        
