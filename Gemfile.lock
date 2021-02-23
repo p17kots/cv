@@ -23,7 +23,7 @@ GEM
     colorize (0.8.1)
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
-    concurrent-ruby (1.1.5)
+    concurrent-ruby (1.1.8)
     dnsruby (1.61.5)
       simpleidn (~> 0.1)
     em-websocket (0.5.2)
@@ -278,7 +278,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  concurrent-ruby (~> 1.1, >= 1.1.5)
+  concurrent-ruby (~> 1.1, >= 1.1.8)
   html-proofer (~> 3.9)
   modern-resume-theme!
 
