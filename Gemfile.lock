@@ -242,6 +242,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    rek (0.0.0.pre)
     rexml (3.2.4)
     rouge (3.23.0)
     ruby-enum (0.8.0)
@@ -281,6 +282,7 @@ DEPENDENCIES
   concurrent-ruby (~> 1.1, >= 1.1.8)
   html-proofer (~> 3.9)
   modern-resume-theme!
+  rek
 
 BUNDLED WITH
    2.1.4
