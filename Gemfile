@@ -4,4 +4,4 @@ gemspec
 
 gem 'concurrent-ruby', '~> 1.1', '>= 1.1.8'
 
-gem "rek"
+gem 'rake'
