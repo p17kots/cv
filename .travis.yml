@@ -1,5 +1,5 @@
 language: ruby
 rvm:
   - 2.7.1
-before_install:
-  - gem install rake
+install: skip
+script: bundle exec rake build
