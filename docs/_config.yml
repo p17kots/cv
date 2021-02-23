@@ -34,7 +34,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/image.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm 21 years old and i currently leave and study in Corfu,Greece.I'm interested in full stack programming,data management and recently I've started working on natural language proccesing and machine learning.I'd describe myself as a perfectionist that's always looking for new knowledge.I like new challenges and i hate routinization.
+  I'm 21 years old and i currently leave and study in Corfu,Greece.I'm interested in full stack programming,data management and recently I've started working on natural language proccesing and machine learning.I'd describe myself as a perfectionist who is always looking for new knowledge.I like new challenges and i hate routinization.
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
