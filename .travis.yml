@@ -4,6 +4,7 @@ rvm:
 before_install:
   - sudo apt-get install pandoc
   - gem install asciidoctor
+  - sudo apt-get install lmodern 
 install:
   - sudo apt-get install texlive-xetex
 script:
