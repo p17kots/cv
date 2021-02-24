@@ -7,7 +7,7 @@ before_install:
 install:
   - sudo apt-get install texlive-xetex
 script:
-  - pandoc https://p17kots.github.io/cv/ -f html-native_divs -o cv.pdf --pdf-engine=xelatex
+  - pandoc https://p17kots.github.io/cv/ -f html-native_divs -o cv.pdf --latex-engine=xelatex
 after_success:
   - .travis/push.sh    
 env:
