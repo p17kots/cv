@@ -5,7 +5,6 @@ before_install:
   - sudo apt-get install pandoc
   - gem install asciidoctor
   - sudo apt-get install lmodern
-  - chmod +x build.sh 
 install:
   - sudo apt-get install texlive-full
 script:
