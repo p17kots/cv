@@ -3,11 +3,11 @@ rvm:
   - 2.7.1
 before_install:
   - sudo apt-get install pandoc
-  - sudo apt-get install texlive-xetex
   - gem install asciidoctor
-  - pandoc https://p17kots.github.io/cv/ -f html-native_divs -o cv.pdf --pdf-engine=xelatex 
+install:
+  - sudo apt-get install texlive-xetex
 script:
-  - make
+  - pandoc https://p17kots.github.io/cv/ -f html-native_divs -o cv.pdf --pdf-engine=xelatex
 after_success:
   - .travis/push.sh    
 env:
