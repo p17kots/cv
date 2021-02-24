@@ -6,7 +6,7 @@ before_install:
   - gem install asciidoctor
   - sudo apt-get install lmodern 
 install:
-  - sudo apt-get install texlive-xetex
+  - sudo apt-get install texlive-full
 script:
   - pandoc https://p17kots.github.io/cv/ -f html-native_divs -o cv.pdf --latex-engine=xelatex
 after_success:
