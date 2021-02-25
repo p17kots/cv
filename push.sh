@@ -8,7 +8,7 @@ setup_git() {
 commit_website_files() {
   git checkout -b main
   git add . cv.pdf
-  git commit --message "Updating pdf format"
+  git commit --message "Updating pdf format: $TRAVIS_BUILD_NUMBER "
 }
 
 upload_files() {
