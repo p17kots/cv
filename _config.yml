@@ -1,0 +1,89 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Kotsagiannidis Petros 
+phone: 69877483
+title: Computer Science Student
+email: galletioly@gmail.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  p17kots
+instagram_username: jekyll
+linkedin_username: jekyll
+# Additional icon links
+additional_links:
+- title: pdf
+  icon: fas fa-file-pdf
+  url: https://p17kots.github.io/cv/cv.pdf
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/image.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I'm 21 years old and i currently leave and study in Corfu,Greece.I'm interested in full stack programming,data management and recently I've started working on natural language proccesing and machine learning.I'd describe myself as a perfectionist who is always looking for new knowledge.I like new challenges and i hate routinization.
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: right
+        title: All my projects are on my Github profile  
+        additional_links:
+          - title: Github page
+            icon: fab fa-github
+            url: https://github.com/p17kots
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Barclays bank
+        sub_title: junior data scientist
+        caption: Date Range ( November 2019 - present) 
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Ionian university department of informatics
+        caption: Date Range (2017 - present)
+  - title: Skills
+    layout: text
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
