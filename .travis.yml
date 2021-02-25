@@ -14,9 +14,8 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   keep_history: true
-  target_branch: build
   on:
-    branch: master
+    branch: main
 
 notifications:
   email: false
